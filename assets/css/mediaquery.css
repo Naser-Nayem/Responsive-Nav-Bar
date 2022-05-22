@@ -1,0 +1,168 @@
+@media(min-width: 0px) and (max-width:575px){
+   
+}
+@media(min-width: 500px) and (max-width: 699px){
+  .logo h2{
+    font-size: 16px;
+}
+  
+  .nav{
+    position: relative;
+    align-self: center;
+  }
+  
+  a.hamburg{
+    display: inline-block;
+    position: absolute;
+    font-size: 20px;
+    color: black;
+    transition: .5s;  
+  }
+  
+  a.hamburg i{
+    transition: .5s;
+  }
+  a.hamburg i:hover{
+    transform: rotate(180deg);
+  }
+ 
+  .nav-bar ul{
+    position: absolute;
+    background-color: #f2f2f2;
+    top: -230px;
+    left: -140px;
+    transition: .5s;
+}
+.nav-bar ul li {
+  padding: 10px 30px;
+}
+.nav-bar li a {
+  font-size: 16px;
+  color: crimson;
+}
+
+.nav-bar li a:hover {
+  font-size: 16px;
+  color: teal;
+}
+a.hamburg:hover{
+  color: red;
+}
+.nav:hover .nav-bar ul{
+  position: absolute;
+  top: 30px;
+  left: -50px;
+}
+
+.button {
+  padding: 8px 14px;
+  background-color: #999191;
+  transition: .5s;
+}
+.button a {
+  color: #fff;
+  font-size: 14px;
+}
+
+.button:hover{
+    background-color: red;
+}
+}
+
+@media(min-width: 700px) and (max-width: 900px){
+  .logo h2{
+    font-size: 18px;
+}
+  
+  .nav{
+    position: relative;
+    align-self: center;
+  }
+  
+  a.hamburg{
+    display: inline-block;
+    position: absolute;
+    font-size: 20px;
+    color: black;
+    transition: .5s;  
+  }
+  
+  a.hamburg i{
+    transition: .5s;
+  }
+  a.hamburg i:hover{
+    transform: rotate(180deg);
+  }
+ 
+  .nav-bar ul{
+    position: absolute;
+    background-color: #f2f2f2;
+    top: -230px;
+    left: -140px;
+    transition: .5s;
+}
+.nav-bar ul li {
+  padding: 10px 30px;
+}
+.nav-bar li a {
+  font-size: 16px;
+  color: crimson;
+}
+
+.nav-bar li a:hover {
+  font-size: 16px;
+  color: teal;
+}
+a.hamburg:hover{
+  color: red;
+}
+.nav:hover .nav-bar ul{
+  position: absolute;
+  top: 30px;
+  left: -50px;
+}
+
+.button {
+  padding: 8px 16px;
+  background-color: #999191;
+  transition: .5s;
+}
+.button a {
+  color: #fff;
+  font-size: 14px;
+}
+
+.button:hover{
+    background-color: red;
+}
+}
+@media(min-width: 901px) and (max-width: 1100px){
+    .logo h2{
+        font-size: 18px;
+    }
+    .nav li {
+        padding: 0px 16px;
+      }
+      .nav li a {
+        font-size: 16px;
+        color: blue;
+      }
+      .nav li a:hover{
+        color: green;
+        font-size: 16px;
+        font-family: poppins,sans-serif;
+    }
+      .button {
+        padding: 8px 16px;
+        background-color: #999191;
+        transition: .5s;
+      }
+      .button a {
+        color: #fff;
+        font-size: 14px;
+      }
+
+      .button:hover{
+          background-color: red;
+      }
+    }            

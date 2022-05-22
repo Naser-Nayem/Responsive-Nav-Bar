@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+	<title>W3schools</title>
+	<meta charset="utf-8">
+	<meta name="author" content="nayem">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="Css/mediaquery.css">
+</head>
+<body>
+	<div class="container-full">
+		<div class="container flex">
+			<div class="logo">
+				<h2>SEO PROJECTS</h2>
+			</div>
+			<div class="nav">
+					<a href="#" class="hamburg">
+						<i class="fa-solid fa-bars"></i>
+					</a>
+					<div class="nav-bar">
+				<ul>
+					<li>
+						<a href="#">Home</a>
+					</li>
+					<li>
+						<a href="#">Gallery</a>
+					</li>
+					<li>
+						<a href="#">About</a>
+					</li>
+					<li>
+						<a href="#">Lifestyle</a>
+					</li>
+					<li>
+						<a href="#">Contact</a>
+					</li>
+				</ul>
+				</div>
+			</div>
+			<div class="button">
+				<a href="#">Click Here</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
